@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Waterfall&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Waterfall&display=swap");
 
 :root {
   --main-box-shadow: 3px 5px 7px 6px rgba(0, 0, 0, 0.5);
@@ -6,8 +6,8 @@
   --primary-yellow: rgba(107, 236, 32, 0.7);
   --primary-gradient: linear-gradient(rgb(24, 163, 94), rgba(0, 0, 0, 0.5));
   --primary-purple: rgba(163, 139, 193, 0.6);
-  --main-font: 'Outfit', sans-serif;
-  --cursive-font:'Waterfall', cursive;
+  --main-font: "Outfit", sans-serif;
+  --cursive-font: "Waterfall", cursive;
 }
 
 * {
@@ -19,7 +19,7 @@
 html {
   min-height: 100vh;
   font-family: var(--main-font);
-  color: white;  
+  color: white;
 }
 
 header {
@@ -31,23 +31,22 @@ header {
 body {
   position: relative;
   background-color: black;
-  padding-bottom: 60px;  
+  padding-bottom: 60px;
 }
 
 .bg {
- 
-  background-color: black; 
+  background-color: black;
 }
 
-.flex-cont { 
+.flex-cont {
   width: 100%;
   padding: 0;
   margin: 0;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-} 
+}
 
 .topper {
   margin-top: 2vh;
@@ -68,7 +67,6 @@ body {
   max-width: 60%;
 }
 
-
 h1 {
   font-weight: 400;
   font-size: 4rem;
@@ -76,9 +74,9 @@ h1 {
 }
 
 h2 {
-    font-weight: 200;
-    font-size: 30px;
-    color: white;
+  font-weight: 200;
+  font-size: 30px;
+  color: white;
 }
 
 h2 a {
@@ -106,7 +104,6 @@ p {
   font-weight: 200;
 }
 
-
 /* ----- COUNTDOWN -------- */
 
 .coming-soon {
@@ -123,24 +120,29 @@ p {
   width: 60vw;
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   border: 1px solid white;
   margin-top: 10px;
   border-radius: 20px;
 }
 
-
-.day,.hour,.minute,.second {
+.day,
+.hour,
+.minute,
+.second {
   font-size: 3rem;
   border-radius: 10px;
   font-weight: 300;
 }
 
-.container-day,.container-hour,.container-minute,.container-second {
+.container-day,
+.container-hour,
+.container-minute,
+.container-second {
   margin: 0 1rem;
   border-radius: 10px;
-  padding: 0 1rem 1rem;  
+  padding: 0 1rem 1rem;
 }
 
 .date {
@@ -148,16 +150,13 @@ p {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;  
+  justify-content: space-around;
   margin-bottom: 5rem;
 }
 
 .date-card {
   text-align: center;
-  
 }
-
-
 
 .bio {
   width: 100%;
@@ -165,7 +164,6 @@ p {
   align-items: center;
   justify-content: space-evenly;
   margin-bottom: 5%;
-
 }
 
 .bio-reverse {
@@ -173,7 +171,6 @@ p {
   align-items: center;
   flex-direction: row-reverse;
   justify-content: space-evenly;
-  
 }
 
 .met {
@@ -181,9 +178,8 @@ p {
   height: 360px;
 
   text-align: center;
-  margin: 0 10px 20px; 
+  margin: 0 10px 20px;
   /* padding: 10px 20px; */
-  
 }
 
 .met a {
@@ -200,8 +196,6 @@ p {
   text-decoration: none;
 }
 
-
-
 .small {
   width: 100px;
   height: auto;
@@ -217,13 +211,12 @@ p {
 
 .place {
   width: 400px;
-  margin: 0 10px 20px; 
+  margin: 0 10px 20px;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid white;
 }
-
 
 .left {
   text-align: left;
@@ -247,18 +240,18 @@ p {
 }
 
 button {
-  display:inline-block;
-  padding:0.5em 3em;
-  border:0.1em solid #FFFFFF;
-  margin:0 0.3em 0.3em 0;
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
   box-sizing: border-box;
-  text-transform:uppercase;
-  font-family: 'Jost', sans-serif;
-  text-decoration:none;
-  border-radius:2em;
-  color:#FFFFFF;
-  background-color: rgba(0, 0, 0, 0.0);
-  text-align:center;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+  border-radius: 2em;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
   transition: all 0.2s;
 }
 
@@ -267,7 +260,7 @@ button:hover {
   background-color: rgba(20, 241, 149, 0.7);
 }
 
-.hotel {  
+.hotel {
   text-align: center;
   width: 400px;
   border-radius: 10px;
@@ -294,11 +287,11 @@ button:hover {
 }
 
 .map-text {
-  width: 400px;  
+  width: 400px;
   text-align: center;
   position: absolute;
   top: 90px;
-  z-index: 1;  
+  z-index: 1;
 }
 
 .schedule {
@@ -331,11 +324,10 @@ button:hover {
   font-weight: 500;
 }
 
-
-.rsvp {   
-    padding: 40px;
-    text-align: center;
-    min-height: 100vh;
+.rsvp {
+  padding: 40px;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .divider {
@@ -376,7 +368,7 @@ button:hover {
 .answer {
   text-align: center;
   width: 500px;
-  margin: 10px 10px; 
+  margin: 10px 10px;
 }
 
 a {
@@ -417,7 +409,6 @@ nav {
 .main-nav {
   list-style-type: none;
   display: none;
- 
 }
 
 .active {
@@ -436,15 +427,15 @@ nav {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;    
+  justify-content: space-between;
 }
 
-.nav-list li { 
+.nav-list li {
   padding: 3%;
   text-decoration: none;
   font-size: 30px;
   font-weight: 300;
-  margin: 2% 0;  
+  margin: 2% 0;
 }
 
 .nav-links {
@@ -452,9 +443,7 @@ nav {
   color: white;
 }
 
-
-
-.footer { 
+.footer {
   position: absolute;
   bottom: 0;
   margin-top: 20%;
@@ -485,8 +474,7 @@ footer p {
 }
 
 .gallery img:hover {
- transform: scale(1.03);
- 
+  transform: scale(1.03);
 }
 
 .full-img {
@@ -511,7 +499,7 @@ footer p {
   position: absolute;
   top: 3%;
   right: 3%;
-  font-size: 30px;  
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -526,18 +514,18 @@ footer p {
 /* MEDIA TABLET */
 
 @media (max-width: 768px) {
-
-
   h1 {
-     font-size: 40px;
-    
+    font-size: 40px;
   }
-   
-  .countdown {
-    width: 100%;  
-   }
 
-  .day,.hour,.minute,.second {
+  .countdown {
+    width: 100%;
+  }
+
+  .day,
+  .hour,
+  .minute,
+  .second {
     font-size: 30px;
   }
 
@@ -550,7 +538,7 @@ footer p {
     width: 50%;
     height: 50%;
   }
- 
+
   .met {
     width: 100%;
     height: auto;
@@ -558,38 +546,34 @@ footer p {
     margin: 5px 2%;
   }
 
-   .box {
-     margin-top: 60px;
-   }
- 
+  .box {
+    margin-top: 60px;
+  }
+
   .date h4 {
-     font-size: 18px;
-   }
+    font-size: 18px;
+  }
 
   .grid {
-     display: grid;
-     grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .main-nav li {
-     font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
-  .question, .answer {
-      width: 400px;
+  .question,
+  .answer {
+    width: 400px;
   }
+}
 
-} 
- 
- @media (min-width: 768px) {
-
- .main-nav {
+@media (min-width: 768px) {
+  .main-nav {
     display: flex;
     flex-direction: row;
- 
   }
-
-
 
   .navbar-toggle {
     display: none;
@@ -599,7 +583,6 @@ footer p {
 /* ---------- MEDIA PHONE ------------ */
 
 @media (max-width: 480px) {
-
   nav {
     padding-top: 15px;
   }
@@ -631,30 +614,34 @@ footer p {
   .countdown {
     width: 100%;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
   }
 
-  .day,.hour,.minute,.second {
+  .day,
+  .hour,
+  .minute,
+  .second {
     font-size: 30px;
   }
 
   h1 {
-     font-size: 20px;
+    font-size: 20px;
   }
 
   h2 {
     font-size: 20px;
   }
 
-   h3 {
-     font-size: 30px;
-   }
+  h3 {
+    font-size: 30px;
+  }
 
   .date {
     flex-direction: column;
   }
 
-  .bio, .bio-reverse {
+  .bio,
+  .bio-reverse {
     flex-direction: column;
     max-width: 85vw;
     margin-bottom: 40px;
@@ -672,27 +659,28 @@ footer p {
   .place-cont {
     width: 90vw;
   }
-  
+
   .place {
     margin: 0 2px 20px;
     padding: 2px;
   }
 
   .met {
-     width: 100%;
-     height: auto;
-     margin: 0 0.5px 2px;
-     padding: 0 0; 
+    width: 100%;
+    height: auto;
+    margin: 0 0.5px 2px;
+    padding: 0 0;
   }
 
   .faq {
     width: 85vw;
   }
-  
+
   .question h4 {
     font-size: 20px;
   }
-  .question, .answer {
+  .question,
+  .answer {
     max-width: 80vw;
     margin: 2px 2px;
   }
@@ -722,6 +710,4 @@ footer p {
   footer p {
     font-size: 10px;
   }
-
-
 }
