@@ -14,6 +14,6 @@ Website I built for guests of my wedding in the Summer of 2022.
 
 ## Technologies Used:
 
-    - HTML
-    - CSS
-    - Javascript
+- HTML
+- CSS
+- Javascript
